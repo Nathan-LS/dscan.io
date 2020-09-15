@@ -1,0 +1,7 @@
+group: travis_latest
+dist: bionic
+language: node_js
+node_js:
+  - 14
+after_success:
+  - codecov
